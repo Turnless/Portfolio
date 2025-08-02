@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="/pics.jpg" sizes="32x32" type="image/png" />
+  <link rel="stylesheet" href="page.css" />
+  <link rel="stylesheet" href="page2.css" />
+  <title>Abdulsalam Portfolio</title>
+</head>
+<style>
+    [id] {
+      scroll-margin-top: 80px; 
+    }
+  @media (max-width: 990px) {
+    .container {
+      background-image: linear-gradient(to right bottom,
+          rgba(94, 99, 124, 0.8),
+          rgba(48, 49, 54, 0.8)),
+        url(trll.jpg);
+      background-size: 100% 100%;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+
+    .skills-container,
+    .non-span {
+      display: none;
+    }
+
+    .skills-section {
+      max-width: 800px;
+      margin: auto;
+      display: block;
+
+      h2 {
+        font-size: 30px;
+        color: #38352e;
+      }
+
+      p {
+        color: #38352e;
+        font-size: 18px;
+      }
+
+      .skill {
+        margin-bottom: 30px;
+      }
+
+      span {
+        font-weight: bold;
+        font-size: 18px;
+        color: #38352e;
+      }
+
+      .skill-label {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        font-size: 14px;
+        font-weight: bold;
+      }
+
+      .progress-bar {
+        background-color: #ededed;
+        height: 10px;
+        border-radius: 5px;
+        overflow: hidden;
+      }
+
+      .progress {
+        height: 100%;
+        width: 0;
+        background-color: #918a79;
+        transition: width 2s ease-in-out;
+      }
+
+      .progress.animated {
+        width: var(--target-width);
+      }
+    }
+
+  }
+</style>
+
+<body>
+  <header>
+    <a href="#" bgcolor="transparent">
+      <img src="Logss.png" alt="logo" />
+    </a>
+    <ul class="menu">
+      <div class="grd">
+        <div class="gd">
+          <img src="pics.jpg" alt="" />
+        </div>
+        <div class="gd">
+          <span>Abdulsalam Hassan</span><br />
+          <span>@turnless</span><br />
+          <a href="https://github.com/turnless"><i class="fa-brands fa-github"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://x.com/turn_less"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="https://t.me/turn_less"><i class="fa-brands fa-telegram"></i></a>
+        </div>
+      </div>
+      <a href="#home" class="hlink">
+        <li>HOME</li>
+      </a>
+      <a href="#about" class="hlink">
+        <li>ABOUT ME</li>
+      </a>
+      <a href="#service" class="hlink">
+        <li>SERVICEs</li>
+      </a>
+      <a href="#service" class="hlink">
+        <li>PROJECTS</li>
+      </a>
+      <a href="#contact" class="clink">
+        <li>CONTACT</li>
+      </a>
+    </ul>
+
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"> </span>
+    </div>
+  </header>
+  <fieldset class="m-fid">
+    <!-- Header with links and logo -->
+
+    <!-- Home -->
+    <div class="container animate-on-scroll" id="home">
+      <div class="item">
+        <h1>HEY THERE!</h1>
+        <h1>
+          I'M
+          <span>Abdulsalam</span>
+        </h1>
+        <div class="loader">
+          <span>I'm a</span>
+          <div class="words">
+            <span class="word">Front-End Developer.</span>
+            <span class="word">Front-End Developer.</span>
+            <span class="word">Software Developer.</span>
+            <span class="word">Back-End Developer.</span>
+            <span class="word">Computer Engineer.</span>
+          </div>
+        </div>
+        <span style="font-size: 15px">
+          ◾ I'm a dedicated developer with a strong focus on building
+          efficient and effective solutions. My approach to coding is centered
+          around understanding problems and creating elegant, maintainable
+          applications, from server logic to user experience.◾ </span><br />
+        <button class="cv-btn">DOWNLOAD CV</button>
+      </div>
+
+      <div class="item">
+        <img src="pics.png" alt="image" />
+      </div>
+    </div>
+
+    <!-- About Me -->
+      <fieldset class="n-fid animate-on-scroll" id="about">
+        <p>ABOUT ME</p>
+        <div class="n-fid-grid">
+          <div class="n-fid-item">
+            <p>
+              Hey, I'm a tech builder who loves making things click. I combine a
+              computer engineer's mindset with a developer's passion to create
+              systems that are both smart and seamless.
+            </p>
+            <p>
+              I specialize in building everything from responsive websites that
+              look great on any device to custom automation tools that make life
+              easier. With real-world experience in back-end development and the
+              Web3 space, I’m comfortable architecting secure APIs, launching
+              dApps, and ensuring everything scales without drama.
+            </p>
+            <p>
+              Looking for someone who can navigate the world where code, design,
+              and crypto meet? Let's build something remarkable.
+            </p>
+          </div>
+
+          <div class="n-fid-item">
+            <img src="__skate.png" alt="image" />
+          </div>
+        </div>
+
+
+        <div class="skills-section animate-on-scroll" id="skills">
+          <h2>Skills</h2>
+          <p>Showcasing my talents and amplifying my impact</p>
+          <div class="skill">
+            <div class="skill-label"><span>HTML</span><span>95%</span></div>
+            <div class="progress-bar">
+              <div class="progress" data-percent="95%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-label"><span>CSS</span><span>90%</span></div>
+            <div class="progress-bar">
+              <div class="progress" data-percent="90%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-label"><span>JavaScript</span><span>75%</span></div>
+            <div class="progress-bar">
+              <div class="progress" data-percent="75%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-label"><span>PHP</span><span>60%</span></div>
+            <div class="progress-bar">
+              <div class="progress" data-percent="60%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-label"><span>SQL</span><span>90%</span></div>
+            <div class="progress-bar">
+              <div class="progress" data-percent="90%"></div>
+            </div>
+          </div>
+
+          <div class="skill">
+            <div class="skill-label"><span>Python</span><span>55%</span></div>
+            <div class="progress-bar">
+              <div class="progress" data-percent="55%"></div>
+            </div>
+          </div>
+        </div>
+
+        <span class="non-span animate-on-scroll">
+          <h2>Skills</h2>
+          <p>Showcasing my talents and amplifying my impact</p>
+
+
+        </span>
+        <div class="skills-container animate-on-scroll">
+          <div class="skill-circle" data-percent="95">
+            <svg>
+              <circle class="circle-bg" cx="90" cy="90" r="60"></circle>
+              <circle class="circle-progress" cx="90" cy="90" r="60"></circle>
+            </svg>
+            <div class="skill-label">
+              <h4>HTML</h4>
+              <span>95%</span>
+            </div>
+          </div>
+
+          <div class="skill-circle" data-percent="90">
+            <svg>
+              <circle class="circle-bg" cx="90" cy="90" r="60"></circle>
+              <circle class="circle-progress" cx="90" cy="90" r="60"></circle>
+            </svg>
+            <div class="skill-label">
+              <h4>CSS</h4>
+              <span>90%</span>
+            </div>
+          </div>
+
+          <div class="skill-circle" data-percent="75">
+            <svg>
+              <circle class="circle-bg" cx="90" cy="90" r="60"></circle>
+              <circle class="circle-progress" cx="90" cy="90" r="60"></circle>
+            </svg>
+            <div class="skill-label">
+              <h4>JavaScript</h4>
+              <span>75%</span>
+            </div>
+          </div>
+
+          <div class="skill-circle" data-percent="60">
+            <svg>
+              <circle class="circle-bg" cx="90" cy="90" r="60"></circle>
+              <circle class="circle-progress" cx="90" cy="90" r="60"></circle>
+            </svg>
+            <div class="skill-label">
+              <h4>PHP</h4>
+              <span>60%</span>
+            </div>
+          </div>
+
+          <div class="skill-circle" data-percent="90">
+            <svg>
+              <circle class="circle-bg" cx="90" cy="90" r="60"></circle>
+              <circle class="circle-progress" cx="90" cy="90" r="60"></circle>
+            </svg>
+            <div class="skill-label">
+              <h4>SQL</h4>
+              <span>90%</span>
+            </div>
+          </div>
+
+          <div class="skill-circle" data-percent="55">
+            <svg>
+              <circle class="circle-bg" cx="90" cy="90" r="60"></circle>
+              <circle class="circle-progress" cx="90" cy="90" r="60"></circle>
+            </svg>
+            <div class="skill-label">
+              <h4>Python</h4>
+              <span>55%</span>
+            </div>
+          </div>
+        </div>
+      </fieldset>
+
+
+    <!-- <br /><br /><br /> -->
+    <!-- <hr style="border: 1px solid #38352e" /> -->
+
+    <!-- SErvice -->
+    <fieldset class="s-fid animate-on-scroll" id="service">
+      <p>SERVICEs</p>
+      <div class="s-fid-grid">
+        <div class="s-fid-item">
+          Get a powerful website that delivers results with an all-in-one
+          solution
+        </div>
+        <div class="s-fid-item">
+          <h2>Web Developer</h2>
+          Crafting responsive, user-focused websites that work seamlessly
+          across devices. From sleek landing pages to dynamic platforms, I
+          bring ideas to life through clean and modern design.
+        </div>
+        <div class="s-fid-item">
+          <h2>Back-End Developer</h2>
+          I build the engine behind the interface—robust APIs, secure
+          databases, and scalable server logic. Focused on performance,
+          security, and long-term maintainability.
+        </div>
+        <div class="s-fid-item">
+          <h2>Computer Engineer</h2>
+          Solving complex technical problems with precision. From
+          hardware-software integration to system optimization, I bring an
+          engineer’s mindset to every project.
+        </div>
+      </div>
+    </fieldset>
+  </fieldset>
+  <!-- Contacts -->
+  </fieldset>
+
+  <fieldset class="c-fid animate-on-scroll" id="contact">
+    <div class="c-fid-grid">
+      <div class="c-fid-item">
+        <span>GET IN TOUCH</span><br>
+        <h1>Lets Discuss Projects</h1>
+        <span>Get in touch with us for any kind of help. We are here to give you
+          the best and also here to help you to find your projects.</span>
+        <div class="input-grid">
+          <div class="input-item">
+            <p>First Name</p>
+            <input type="text" name="inp1" id="inp1" placeholder="Name" />
+          </div>
+          <div class="input-item">
+            <p>Your Email</p>
+            <input type="email" name="inp2" id="inp2" placeholder="Email" />
+          </div>
+        </div>
+
+        <p>Subject</p>
+        <input type="text" name="inp3" id="inp3" placeholder="Subject" />
+        <p>Your Message</p>
+        <textarea name="inp4" id="inp4" placeholder="Your Message"></textarea><br /><br />
+        <button class="send-button">Send Message</button>
+      </div>
+      <div class="c-fid-item">
+        <h3>Let Discuss Your Project</h3>
+        <div class="address-grid">
+          <div class="address-item">
+              <i class="fa-solid fa-envelope"></i>
+            <span>
+              <p>Mail :</p>
+              <span>hassanabdulsalam170@gmail.com</span>
+            </span>
+
+          </div>
+          <div class="address-item">
+              <i class="fa-solid fa-phone"></i>
+            <span>
+              <p>Phone: </p>
+              <span>+234 816 0343 667</span>
+            </span>
+          </div>
+          <div class="address-item">
+              <i class="fa-solid fa-location-dot"></i>
+            <span>
+              <p>You Can Visit me here: </p>
+              <span>Okeiresi Area Ede <br> <br>Osun State Nigeria</span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+
+  <footer>
+    <div class="footer-div animate-on-scroll">
+      &#169; Copyright <strong>turnless</strong> All Rights Reserved
+    </div>
+  </footer>
+  <script src="page.js"></script>
+  <script src="https://kit.fontawesome.com/ca448160c1.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
