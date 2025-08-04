@@ -57,11 +57,11 @@ const hamburger = document.querySelector(".hamburger");
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add('visible');
-        // observer_animate.unobserve(entry.target); // only animate once
+        observer_animate.unobserve(entry.target); // only animate once
       }
-      else{
-        entry.target.classList.remove('visible');
-      }
+      // else{
+      //   entry.target.classList.remove('visible');
+      // }
     });
   }, { threshold: 0.3 });
 
