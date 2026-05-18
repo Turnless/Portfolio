@@ -183,7 +183,7 @@ const Contact = () => {
       {/* Bottom Copyright */}
       <div className="mt-24 pt-8 border-t border-white/5 text-center">
         <p className="text-[10px] font-bold uppercase tracking-[0.3em] text-[#a3988c]">
-          © {new Date().getFullYear()} Turnless Portfolio • © 2026
+          © {new Date().getFullYear()} • Turnless Portfolio •
         </p>
       </div>
     </footer>
