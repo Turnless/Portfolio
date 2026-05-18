@@ -30,5 +30,5 @@ export const projects = [
 export const socials = [
   { name: "GitHub", href: "https://github.com/turnless" },
   { name: "LinkedIn", href: "https://www.linkedin.com/in/abdulsalam-hassan-15b166344" },
-  { name: "X-Twitter", href: "https://twitter.com/turnless_hq" },
+  { name: "X-Twitter", href: "https://x.com/turnless_hq" },
 ];
