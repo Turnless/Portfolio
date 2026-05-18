@@ -136,7 +136,7 @@ const Header = () => {
                       </motion.a>
                       <motion.a 
                         whileHover={{ y: -3 }}
-                        href="https://twitter.com/turnless2" 
+                        href="https://twitter.com/turnless_hq" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-[#38352e] hover:text-[#a3988c] transition-colors"
@@ -145,7 +145,7 @@ const Header = () => {
                       </motion.a>
                       <motion.a 
                         whileHover={{ y: -3 }}
-                        href="https://linkedin.com/in/turnless" 
+                        href="https://www.linkedin.com/in/abdulsalam-hassan-15b166344" 
                         target="_blank" 
                         rel="noopener noreferrer"
                         className="text-[#38352e] hover:text-[#a3988c] transition-colors"
@@ -158,7 +158,7 @@ const Header = () => {
                   <div className="space-y-2">
                     <p className="text-[9px] font-black uppercase tracking-widest text-[#a3988c]">Availability</p>
                     <div className="flex items-center gap-2">
-                      <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
+                      <div className="w-2 h-2 rounded-full bg-brown-500 animate-pulse" />
                       <span className="text-xs font-bold text-[#38352e]">Ready to Sync</span>
                     </div>
                   </div>
